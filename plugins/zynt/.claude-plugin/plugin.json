@@ -1,0 +1,16 @@
+{
+  "name": "zynt",
+  "displayName": "ZYNT",
+  "version": "0.1.0",
+  "description": "Set up ZYNT and ask for news on your lists. Signs in with your ZYNT account, no API key.",
+  "author": {
+    "name": "ZYNT",
+    "url": "https://getzynt.com"
+  },
+  "homepage": "https://getzynt.com",
+  "repository": "https://github.com/getzynt/zynt-plugins",
+  "privacyPolicyUrl": "https://getzynt.com/privacy-policy",
+  "license": "MIT",
+  "keywords": ["sales", "signals", "gtm", "news", "accounts"],
+  "mcpServers": "./.mcp.json"
+}

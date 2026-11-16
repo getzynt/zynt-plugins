@@ -1,0 +1,17 @@
+{
+  "name": "zynt",
+  "owner": {
+    "name": "ZYNT",
+    "url": "https://getzynt.com"
+  },
+  "description": "ZYNT for AI agents: sales signals and news about the companies and people you sell to",
+  "plugins": [
+    {
+      "name": "zynt",
+      "displayName": "ZYNT",
+      "source": "./plugins/zynt",
+      "description": "Set up ZYNT and ask for news on your lists. Signs in with your ZYNT account, no API key.",
+      "category": "productivity"
+    }
+  ]
+}

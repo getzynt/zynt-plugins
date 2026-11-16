@@ -1,0 +1,22 @@
+{
+  "name": "zynt",
+  "interface": {
+    "displayName": "ZYNT"
+  },
+  "plugins": [
+    {
+      "name": "zynt",
+      "displayName": "ZYNT",
+      "source": {
+        "source": "local",
+        "path": "./plugins/zynt"
+      },
+      "description": "Set up ZYNT and ask for news on your lists. Signs in with your ZYNT account, no API key.",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

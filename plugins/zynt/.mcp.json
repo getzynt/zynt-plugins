@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "zynt": {
+      "type": "http",
+      "url": "https://app.getzynt.com/mcp"
+    }
+  }
+}

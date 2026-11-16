@@ -1,0 +1,32 @@
+{
+  "name": "zynt",
+  "version": "0.1.0",
+  "description": "Set up ZYNT and ask for news on your lists. Signs in with your ZYNT account, no API key.",
+  "author": {
+    "name": "ZYNT",
+    "url": "https://getzynt.com"
+  },
+  "homepage": "https://getzynt.com",
+  "repository": "https://github.com/getzynt/zynt-plugins",
+  "license": "MIT",
+  "keywords": ["sales", "signals", "gtm", "news", "accounts"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "ZYNT",
+    "shortDescription": "Sales signals and news about the companies and people you sell to",
+    "longDescription": "ZYNT watches the market for news about the companies and people on your lists: funding, hires, expansions, tenders and events. This plugin connects your agent to ZYNT with your own sign-in, so it can set ZYNT up from what it knows about your business and tell you what changed on your lists. Learn more at https://getzynt.com.",
+    "developerName": "ZYNT",
+    "category": "Productivity",
+    "capabilities": ["Interactive", "Read", "Write"],
+    "defaultPrompt": [
+      "Set up ZYNT for me",
+      "Any news on my list?",
+      "Which companies on my list had news this week?"
+    ],
+    "brandColor": "#1E1D1D",
+    "composerIcon": "./assets/logo.png",
+    "logo": "./assets/logo.png",
+    "logoDark": "./assets/logo.png"
+  }
+}
