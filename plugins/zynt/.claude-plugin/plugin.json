@@ -9,6 +9,7 @@
   },
   "homepage": "https://getzynt.com",
   "repository": "https://github.com/getzynt/zynt-plugins",
+  "icon": "./assets/logo.png",
   "privacyPolicyUrl": "https://getzynt.com/privacy-policy",
   "license": "MIT",
   "keywords": ["sales", "signals", "gtm", "news", "accounts"],
