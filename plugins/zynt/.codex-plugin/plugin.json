@@ -1,6 +1,6 @@
 {
   "name": "zynt",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Set up ZYNT and ask for news on your lists. Signs in with your ZYNT account, no API key.",
   "author": {
     "name": "ZYNT",
