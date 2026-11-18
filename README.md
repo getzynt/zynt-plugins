@@ -4,7 +4,7 @@
 
 - **Sign in once.** The agent connects with your ZYNT account in the browser. No API key to copy, and ZYNT stays in your agent's tools for every chat.
 - **"Set up ZYNT for me".** Your agent sets ZYNT up from what it already knows about your business, and asks you only what is missing.
-- **"Any news on my list?"** Your agent reads what ZYNT found about your list this week, then this month.
+- **"Signals for me" or "Any news on my list?"** Your agent reads every ZYNT list you have: the scored signals first, then the other news this week, then this month.
 
 ## Install
 
