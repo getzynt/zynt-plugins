@@ -1,6 +1,6 @@
 ---
 name: zynt-setup
-description: Set up ZYNT for the user with the ZYNT tools, from what you already know about their business. Use when the user says "Set up ZYNT for me", asks to set up, finish or redo their ZYNT setup, or pastes the lines ZYNT shows after "Set up with my AI agent".
+description: Set up ZYNT for the user with the ZYNT tools, from what you already know about their business. Use when the user says "Set up ZYNT for me", asks to set up, finish or redo their ZYNT setup, or pastes "Set up ZYNT for me: read https://getzynt.com/agent-setup.md and follow it." from ZYNT's "Set up with my AI agent".
 ---
 
 # Set up ZYNT
@@ -11,7 +11,7 @@ ZYNT asks a short setup: who the user's company is, who they sell to, then a sum
 
 - No `zynt` tools, or a tool says the user is not signed in: in Claude Code, ask them to run `/mcp`, pick `zynt` and sign in; in Codex, `codex mcp login zynt`. Then continue.
 - No ZYNT account yet: send them to https://app.getzynt.com/sign-up?utm_source=zynt-plugins&utm_medium=agent&utm_campaign=agent-setup and wait until they are in.
-- The user pasted ZYNT's lines with an `ak_` key: use the `zynt` tools instead, and never save the key anywhere.
+- The user pasted a ZYNT key (`ak_…`): do not use it and never save it anywhere. Use the `zynt` tools instead: the browser sign-in replaces the key.
 
 ## Steps
 
