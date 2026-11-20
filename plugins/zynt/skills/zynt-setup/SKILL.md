@@ -15,10 +15,11 @@ ZYNT asks a short setup: who the user's company is, who they sell to, then a sum
 
 ## Steps
 
-1. Gather what you already know about the user's business: strategy, ideal customer, target companies, notes in this folder or in their company brain. Never send passwords, keys, personal emails, phone numbers or copied conversations.
-2. If you found such files, send them once with `add_setup_context`. ZYNT turns them into guesses the user confirms.
-3. Call `get_setup`. Then call `answer_setup` with one of the answers it lists, until its step is `done`. Ask the user only what you cannot find.
+1. Call `get_setup` first. It says where the setup stands and the answers it takes now.
+2. While the setup is still at its first questions (step `company` or `customers`), send what you know about the user's business once with `add_setup_context`: strategy, ideal customer, target companies, the list of current customers, notes in this folder or in their company brain. Send business facts only: never passwords, keys, personal emails, other people's phone numbers, deal amounts or copied conversations. ZYNT turns the files into guesses the user confirms. If it refuses, do what its hint says and go on without it.
+3. Call `answer_setup` with one of the answers `get_setup` lists, until its step is `done`. Ask the user only what you cannot find. ZYNT asks for a phone number: tell the user it calls only if the setup gets stuck.
 4. Before you answer yes to the summary, show it to the user and wait for their yes.
-5. When a call fails, do what its hint says.
+5. When a call fails, do what its hint says. No setup open means the workspace is set up already: say so, and help with the user's news instead (the `zynt-news` skill).
+6. When the step is `done`, tell the user: ZYNT now reads the news about the companies on their lists. The news shows at once; signals, the news that gives them a reason to talk to a company now, can take a while. Offer to show the news ("Signals for me").
 
 The tool descriptions have the details. Follow them over this file.
